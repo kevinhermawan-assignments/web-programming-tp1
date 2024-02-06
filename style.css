@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.personal-info h2,
+.personal-info p {
+    text-align: center;
+}
+
+#theme-toggle {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Tema Gelap */
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-theme .profile-container {
+    background-color: #555;
+}
+
+.dark-theme button {
+    background-color: #666;
+}
